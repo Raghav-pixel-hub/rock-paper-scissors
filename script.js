@@ -96,3 +96,10 @@ document.getElementById("scissors").addEventListener("click", function(){
         document.getElementById("computerscore").innerText = "Computer score: " + computerscore
     }
 })
+
+document.getElementById("reset").addEventListener("click",function(){
+    playerscore = 0
+    computerscore = 0
+    document.getElementById("playerscore").innerText = "Player Score : " + playerscore
+    document.getElementById("computerscore").innerText = "Computer score: " + computerscore
+})
