@@ -10,6 +10,11 @@ body{
     height: 100vh;
 }
 
+h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
 #card{
     background-color: cornsilk;
     padding: 20px;
@@ -21,9 +26,12 @@ body{
 }
 
 button {
-    padding: 10px;
-    background-color: white;
+    width: 120px;
+    padding: 12px;
+    margin: 10px;
     border-radius: 20px;
+    border: none;
+    transition: 0.3s;
 }
 
 button:hover{
@@ -31,4 +39,24 @@ button:hover{
     background-color: black;
     color: white;
     transition: 0.3s;
+}
+
+#playerscore,
+#computerscore {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+#winner {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+body {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
 }
